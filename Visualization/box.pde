@@ -20,9 +20,14 @@ class box {
     stroke(10);
     rect(x, y, w, h);
     textSize(13);
-    
-    
   }
+  void display1() {
+    fill(255);
+    stroke(10);
+    ellipse(x, y, w, h);
+    textSize(13);
+  }
+  
   //specific for showArray, can be impove?
   void showNum1(float tempty){
     
@@ -50,4 +55,15 @@ class box {
     textSize(25);
     text(showNum, x+10, y+35);//show actual nmber
   }
+  
+  //specific for showTree, can be impove?
+  void showNum4(){
+    fill(0, 0, 0);
+    textSize(13);
+    
+    text(num, x-3, y+4);//show number
+    textSize(25);
+   
+  }
+  
 }

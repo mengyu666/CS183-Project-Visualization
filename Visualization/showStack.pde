@@ -29,8 +29,7 @@ class showStack{
     textSize(13);
     fill(0);
     text("bottom", 13, 193);
-    text("top", 400, 193);
-    
+    text("top", 400, 193);  
     //show popButton and pushButton
     popButton.display("POP");
     pushButton.display("PUSH");
@@ -43,7 +42,7 @@ class showStack{
     if(judge == 2 && countStack > 0){
       countStack --;
     }
-    println(countStack);
+    //println(countStack);
    // println(frameRate);
     frameRate(8); //adjust the frameRate of the video
     //debug

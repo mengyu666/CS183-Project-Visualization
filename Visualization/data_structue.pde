@@ -42,6 +42,9 @@ class data_structue {
     }else if(op1 ==false&&op2 == false&&op3 == true&&op4 == false&&op5 == false){
       showQueue sq = new showQueue();
       sq.display();//call a showQueue object to show how queue realise
+    }else if(op1 ==false&&op2 == false&&op3 == false&&op4 == true&&op5 == false){
+      showTree st = new showTree();
+      st.display();//call a showQueue object to show how queue realise
     }
   }
 
@@ -49,5 +52,6 @@ class data_structue {
     op1 = nb[1].operation();
     op2 = nb[2].operation();
     op3 = nb[3].operation();
+    op4 = nb[4].operation();
   }
 }

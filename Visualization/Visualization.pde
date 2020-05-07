@@ -1,5 +1,5 @@
 binaryBackgound[] binaryBackgounds = new binaryBackgound[200];//declare binaryBackgounds array
-data_structue ds = new data_structue();
+data_structue ds = new data_structue();//a data_structue object
 button b1, b2;// data structue button and algorithm button
 
 boolean op1,op2 ;// declare two button object 
@@ -51,11 +51,11 @@ void draw() {
 }
 // start the program
 void toStart() {
-  b1 = new button(310, 320, 150, 40);
+  b1 = new button(110, 320, 150, 40);
   b1.display(" Data Structure");
   op1 = b1.operation();// call the data structure page button
 
-  b2 = new button(310, 380, 150, 40);
+  b2 = new button(410, 380, 150, 40);
   b2.display("    Alogrithm");
   op2 = b2.operation();// call the algorithm page button
 }

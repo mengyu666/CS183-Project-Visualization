@@ -27,8 +27,8 @@ class showQueue {
     //queue position
     textSize(13);
     fill(0);
-    text("bottom", 13, 193);
-    text("top", 400, 193);
+    text("front", 13, 193);
+    text("tail", 400, 193);
     //show popButton and pushButton
     popButton.display(" POP");
     pushButton.display("PUSH");
